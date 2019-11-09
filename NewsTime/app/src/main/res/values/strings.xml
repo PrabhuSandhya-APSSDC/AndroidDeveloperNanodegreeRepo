@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">News Time</string>
+    <string name="news_time">World News Time</string>
+    <string name="conn_fail">Connection Failure</string>
+    <string name="login_suc_msg">Login Successful</string>
+    <string name="welcome_to_news_time">Welcome to News Time</string>
+    <string name="check_out">Check out to read the news around the world by selecting your desired country</string>
+    <string name="choose_a_country">Please choose a country</string>
+    <string-array name="countries">
+        <item>Choose a country</item>
+        <item>China</item>
+        <item>Japan</item>
+        <item>India</item>
+        <item>United States</item>
+    </string-array>
+    <string name="title_activity_news_categories">Categories</string>
+    <string name="insert_failed">Failed to insert row</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="enable_internet">Please enable your internet connection</string>
+    <string name="json_error">Error Loading JSON</string>
+    <string name="not_available">Not Available</string>
+    <string name="article_image">Article Image</string>
+    <string name="saved">Saved to Database</string>
+    <string name="deleted">Deleted From Database</string>
+    <string name="pref_file_name">mypref</string>
+    <string name="appwidget_text">FAVOURITE ARTICLE</string>
+    <string name="last_viewed">Last Added Favourite</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="no_favs">NO FAVOURITES SELECTED</string>
+    <string name="reminder_title">Notification Reminder</string>
+    <string name="time_to_read">It\'s time to read the news</string>
+    <string name="hello">Hello</string>
+    <string name="enter_your_feedback">Enter your Feedback</string>
+    <string name="save">Save</string>
+    <string name="feedback">feedbackImage</string>
+    <string name="please_enter_feed">Please enter feedback</string>
+    <string name="user_feed">User Feedback</string>
+    <string name="feed_saved">Feedback Saved Successfully</string>
+    <string name="search">Search</string>
+    <string name="enter_text_to_search">Enter text to search</string>
+    <string name="search_button">Search</string>
+    <string name="enter_text_to_search_error">Please enter text to search</string>
+    <string name="shared_element_transition">shared_element_transition</string>
+    <string name="title">TITLE:</string>
+    <string name="author">AUTHOR:</string>
+    <string name="description">DESCRIPTION:</string>
+    <string name="related_links">RELATED LINKS:</string>
+    <string name="unlock_the_world_news">UNLOCK THE WORLD NEWS</string>
+    <string name="worlds_latest_news">Worlds Latest News</string>
+    <string name="universe_shattering">Universe Shattering News including Business,Entertaiment,Science,Sports and more</string>
+    <string name="always_updated">Updated always</string>
+    <string name="very_often">Most Latest and new news added. Very often you will get updates.</string>
+    <string name="country_wise_and_category_wise">Country wise and Category wise</string>
+    <string name="various_categories">Enjoy reading the news of different countries in various categories.\n
+    As of now 4 countries are available. Other countries will be added very soon</string>
+    <string name="top_headlines">TOP HEADLINES</string>
+    <string name="top_20_headlines">You will always get top 20 headlines which includes all the categories of a particular country</string>
+    <string name="feedback_frag">Feedback</string>
+    <string name="about_frag">About Us</string>
+    <string name="fav">Favourites</string>
+    <string name="headlines">Top HeadLines</string>
+    <string name="no_favs_selected">No Favourites Selected</string>
+    <string name="alert_msg">Go Through the news and select Favourites</string>
+    <string name="ok">Click to see more</string>
+    <string name="sample_globe_image">Sample Globe Image</string>
+    <string name="sample_news_image">Sample News Image</string>
+    <string name="set_notification_reminder">Set Notification Reminder</string>
+    <string name="favourites_menu">Favourites</string>
+    <string name="business_menu">Business</string>
+    <string name="entertainment_menu">Entertainment</string>
+    <string name="health_menu">Health</string>
+    <string name="science_menu">Science</string>
+    <string name="sports_menu">Sports</string>
+    <string name="technology_menu">Technology</string>
+    <string name="communicate_menu">Communicate</string>
+    <string name="about_us_menu">About us</string>
+    <string name="feedback_menu">Feedback</string>
+    <string name="for_ui_test">For UI Test</string>
+    <string name="check_internet">Please check your internet connection</string>
+    <string name="test_device_id">33BE2250B43518CCDA7DE426D04EE231</string>
+    <string name="reminder_on">REMINDER ON</string>
+    <string name="reminder_off">REMINDER OFF</string>
+    <string name="choose_country">Choose a country</string>
+    <string name="signin_failure">signInWithCredential:failure</string>
+    <string name="sign_in_success">signInWithCredential:success</string>
+    <string name="auth_google">firebaseAuthWithGoogle:</string>
+    <string name="conn_info_log">CONNECTION INFO</string>
+    <string name="succ">Successful</string>
+    <string name="net_alert_poistive_button">OK</string>
+    <string name="unsupported_op">Not yet implemented</string>
+    <string name="anonymous_user">anonymous</string>
+    <string name="json_data">JSON DATA</string>
+    <string name="like_button">Like Button</string>
+    <string name="banner">BANNER</string>
+    <string name="search_res_title">Search Results</string>
+</resources>

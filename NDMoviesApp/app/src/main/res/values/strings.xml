@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">NDMoviesApp</string>
+    <string name="contentDesc">Movie Poster</string>
+    <string name="def_title">Avengers</string>
+    <string name="def_original_title">Avengers: Infinity War</string>
+    <string name="def_back_drop">/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg</string>
+    <string name="def_poster_path">/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg</string>
+    <string name="def_overview">As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain</string>
+    <string name="def_release_date">2018–04-25</string>
+    <string name="not_available_error">Not Available</string>
+    <string name="con_suc">Connection Success</string>
+    <string name="internetCon">Please enable your internet connection</string>
+    <string name="popular_spinner_item">Most Popular</string>
+    <string name="top_rated_spinner_item">Top Rated</string>
+    <string name="no_spinner_item_selected">No Spinner Item Selected</string>
+    <string name="no_json_response">No JSON Response</string>
+    <string name="error_tag">ERROR</string>
+    <string name="error_fetching_data">Error Fetching bundle object</string>
+    <string name="error_fetching_url">Error in Fetching URL</string>
+    <string name="search_url_tag">search url</string>
+    <string name="error_json_data">Error in Fetching Data from URL</string>
+    <string name="error_fetching_data_from_adapter">Error fetching data from Adapter</string>
+    <string name="movie_poster_content_desc">movie_poster</string>
+    <string name="trailers">TRAILERS</string>
+    <string name="reviews">REVIEWS</string>
+    <string name="insert_failed">Failed to insert row</string>
+    <string name="record_deleted">Deleted from Database</string>
+    <string name="fav_item">Favourites</string>
+    <string name="no_favs">No Favourites Selected</string>
+    <string name="review_unavailable">Review Unavailable</string>
+    <string name="trailer_unavailable">Trailer unavailabe</string>
+    <string name="saved_fav">Saved to Database</string>
+    <string name="pref_file_name">shared_pref</string>
+    <string name="rating_image">Rating Image</string>
+    <string name="youtube_play_image">Youtube Play Image</string>
+    <string-array name="spinner_list_items">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Favourites</item>
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sandhya.prabhu.in.newstime">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.CountrySelectionActivity" />
+        <activity
+            android:name=".activities.NewsCategoriesActivity"
+            android:label="@string/title_activity_news_categories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ArticleDetailActivity"
+            android:parentActivityName=".activities.NewsCategoriesActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <provider
+            android:name=".data.FavContentProvider"
+            android:authorities="sandhya.prabhu.in.newstime"
+            android:exported="false" />
+
+        <receiver android:name=".FavouriteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favourite_widget_info" />
+        </receiver>
+        <receiver
+            android:name=".receiver.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="sandhya.prabhu.in.newstime.ACTION_NOTIFY"/>
+            </intent-filter>
+
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fav"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/favourites_menu" />
+        <item
+            android:id="@+id/nav_business"
+            android:icon="@drawable/ic_business_black_24dp"
+            android:title="@string/business_menu" />
+        <item
+            android:id="@+id/nav_entertainment"
+            android:icon="@drawable/entertainment"
+            android:title="@string/entertainment_menu" />
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/health"
+            android:title="@string/health_menu" />
+        <item
+            android:id="@+id/nav_science"
+            android:icon="@drawable/science"
+            android:title="@string/science_menu" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/sports"
+            android:title="@string/sports_menu" />
+        <item
+            android:id="@+id/nav_tech"
+            android:icon="@drawable/technology"
+            android:title="@string/technology_menu" />
+    </group>
+
+    <item android:title="@string/communicate_menu">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/about"
+                android:title="@string/about_us_menu" />
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feed"
+                android:title="@string/feedback_menu" />
+        </menu>
+    </item>
+
+</menu>

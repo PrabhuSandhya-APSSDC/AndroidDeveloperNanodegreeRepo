@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "298411473067",
+    "firebase_url": "https://newstime-3137f.firebaseio.com",
+    "project_id": "newstime-3137f",
+    "storage_bucket": "newstime-3137f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298411473067:android:b9dcccd8de57c4e0",
+        "android_client_info": {
+          "package_name": "sandhya.prabhu.in.newstime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298411473067-q8rnr76sv14e0lr869qia1jsooc11oal.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sandhya.prabhu.in.newstime",
+            "certificate_hash": "d27fcfe99e5ef1628ec94ff642896afb411afb41"
+          }
+        },
+        {
+          "client_id": "298411473067-outjkhtsmb8nv5m64umlb637f6bb1bf4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "298411473067-outjkhtsmb8nv5m64umlb637f6bb1bf4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYoo81sZNIbuvCtbtozkRs1QutpEc8R7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298411473067-outjkhtsmb8nv5m64umlb637f6bb1bf4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
